@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Política de privacidade da integração Meu Studio Backup com o Google Drive.">
+  <meta name="theme-color" content="#11243b">
+  <title>Política de privacidade — Meu Studio Backup</title>
+  <style>
+    :root{color-scheme:light;--navy:#11243b;--ink:#152b3d;--muted:#52677c;--line:#dbe5ec;--bg:#f4f8fb}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.8}
+    a{color:#136447;text-underline-offset:3px}a:focus-visible{outline:3px solid #3ca884;outline-offset:3px}
+    header{background:var(--navy);color:#fff}.container{width:min(840px,calc(100% - 40px));margin:auto}
+    .top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 0;flex-wrap:wrap}
+    .brand{color:#fff;font-weight:750;text-decoration:none}.nav{display:flex;gap:20px}.nav a{color:#e3f3ef;text-decoration:none;font-size:.94rem}
+    .intro{padding:36px 0 45px}h1{font-size:clamp(2rem,4vw,3rem);line-height:1.2;letter-spacing:-.035em;margin:0 0 10px}.intro p{color:#d8e5ee;margin:0}
+    article{background:#fff;border:1px solid var(--line);border-radius:16px;margin:34px 0 55px;padding:clamp(23px,5vw,48px);box-shadow:0 8px 26px rgba(17,36,59,.045)}
+    h2{font-size:1.3rem;line-height:1.35;letter-spacing:-.01em;margin:29px 0 10px}h2:first-child{margin-top:0}p{margin:0 0 13px}ul{padding-left:22px;margin:5px 0 17px}
+    .date{color:var(--muted);font-size:.91rem;margin-bottom:25px}footer{border-top:1px solid var(--line);padding:22px 0 32px;font-size:.91rem;color:var(--muted)}
+  </style>
+</head>
+<body>
+<header><div class="container"><div class="top"><a class="brand" href="./">Meu Studio Backup</a><nav class="nav" aria-label="Navegação principal"><a href="./">Início</a><a href="./privacidade.html">Política de privacidade</a></nav></div><div class="intro"><h1>Política de privacidade</h1><p>Integração particular do Meu Studio Backup com o Google Drive</p></div></div></header>
+<main class="container"><article>
+<p class="date"><strong>Última atualização:</strong> 10 de outubro de 2026.</p>
+<h2>1. Responsável e finalidade</h2>
+<p>O Meu Studio Backup é uma integração de uso restrito mantida pela CG Musculação e Pilates para criar, armazenar e verificar cópias de segurança dos dados operacionais do sistema Meu Studio. Esta política trata especificamente do uso da API do Google Drive nessa integração; não substitui as políticas aplicáveis à operação geral do estúdio.</p>
+<h2>2. Permissão solicitada ao Google</h2>
+<p>Para enviar, consultar e verificar arquivos de backup, o aplicativo usa autorização OAuth concedida voluntariamente pelo titular da conta Google. A permissão técnica solicitada é de acesso completo aos arquivos do Google Drive, podendo permitir leitura, criação, alteração e exclusão de arquivos. <strong>O uso operacional previsto, porém, é restrito à pasta de backups definida pelo responsável.</strong></p>
+<p>A autorização não fornece ao aplicativo a senha da conta Google. O titular pode revogar o acesso nas configurações de segurança da própria conta Google.</p>
+<h2>3. Quais dados são tratados e para quê</h2>
+<ul>
+  <li><strong>Arquivos de backup:</strong> cópias do banco de dados e de arquivos internos do Meu Studio, enviadas para a pasta designada no Google Drive.</li>
+  <li><strong>Metadados técnicos:</strong> nomes, tamanhos, identificadores, datas e informações necessárias à transferência, organização e conferência de integridade.</li>
+  <li><strong>Credenciais de autorização:</strong> informações técnicas de acesso OAuth necessárias para conectar o processo automatizado ao Google Drive.</li>
+</ul>
+<p>A integração não utiliza dados da conta Google para publicidade, elaboração de perfis comerciais ou venda de informações. Não existe função pública para navegar nos backups.</p>
+<h2>4. Armazenamento e prestadores de serviço</h2>
+<p>As cópias de segurança ficam armazenadas na conta Google Drive autorizada. O processo automatizado pode ser executado por meio do GitHub Actions, que processa temporariamente os arquivos durante a transferência e a verificação. Credenciais de integração são previstas para armazenamento como segredos de configuração protegidos, e não como conteúdo público do repositório.</p>
+<p>Google e GitHub fornecem a infraestrutura necessária ao funcionamento da integração, sujeitos a suas próprias condições e políticas de privacidade. Não há comercialização dos dados nem compartilhamento para finalidades publicitárias.</p>
+<h2>5. Conservação e exclusão</h2>
+<p>Os backups permanecem no Google Drive até serem excluídos pelo responsável ou conforme uma política de retenção que venha a ser configurada. Arquivos temporários usados na execução automatizada são destinados apenas ao processamento da rotina e seguem o ciclo de vida do ambiente de execução.</p>
+<p>O responsável pode interromper a execução da rotina, revogar o acesso OAuth à conta Google e excluir os arquivos armazenados, conforme suas necessidades operacionais e obrigações legais.</p>
+<h2>6. Segurança e acesso</h2>
+<p>O acesso à integração é destinado exclusivamente ao responsável e às pessoas por ele autorizadas. São previstas medidas como armazenamento não público de credenciais, restrição de acesso aos repositórios operacionais e conferência de integridade das transferências. Nenhuma medida tecnológica elimina integralmente os riscos de segurança.</p>
+<h2>7. Visitantes desta página</h2>
+<p>Este site informativo não solicita CPF, dados de alunos, senha ou autenticação. A infraestrutura de hospedagem do GitHub Pages poderá tratar dados técnicos de acesso de acordo com a <a href="https://docs.github.com/pt/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener noreferrer">política de privacidade do GitHub</a>.</p>
+<h2>8. Contato e atualizações</h2>
+<p>Dúvidas gerais podem ser encaminhadas pelo <a href="https://github.com/p4u10c354r/meu-studio-backup-site/issues" rel="noopener noreferrer">canal público do projeto no GitHub</a> ou pelo e-mail de suporte ao usuário informado na tela de autorização do Google. Nunca compartilhe informações pessoais ou credenciais em chamados públicos.</p>
+<p>Esta política poderá ser atualizada quando houver mudanças relevantes na integração. A data da revisão será indicada nesta página.</p>
+<p><a href="./">← Voltar à página inicial</a></p>
+</article></main>
+<footer><div class="container">© 2026 · Meu Studio Backup · CG Musculação e Pilates</div></footer>
+</body></html>

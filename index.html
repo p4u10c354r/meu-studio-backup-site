@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Informações sobre a integração privada Meu Studio Backup para cópias de segurança no Google Drive.">
+  <meta name="theme-color" content="#11243b">
+  <title>Meu Studio Backup — Integração com Google Drive</title>
+  <style>
+    :root { color-scheme: light; --navy:#11243b; --ink:#152b3d; --muted:#52677c; --line:#dbe5ec; --bg:#f4f8fb; --accent:#167451; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif; line-height:1.7; }
+    a { color:#136447; text-underline-offset:3px; } a:focus-visible { outline:3px solid #3ca884; outline-offset:3px; }
+    header { background:var(--navy); color:#fff; }
+    .container { width:min(960px, calc(100% - 40px)); margin:auto; }
+    .top { display:flex; justify-content:space-between; align-items:center; gap:16px; padding:19px 0; flex-wrap:wrap; }
+    .brand { color:#fff; font-weight:750; font-size:1.05rem; text-decoration:none; letter-spacing:.01em; }
+    .nav { display:flex; gap:20px; } .nav a { color:#e3f3ef; text-decoration:none; font-size:.94rem; }
+    .hero { padding:60px 0 68px; }
+    .eyebrow { color:#a7e1cc; font-size:.79rem; text-transform:uppercase; font-weight:800; letter-spacing:.15em; }
+    h1 { margin:12px 0 16px; max-width:790px; font-size:clamp(2.2rem,5vw,3.7rem); line-height:1.14; letter-spacing:-.035em; }
+    .lead { color:#d8e5ee; max-width:710px; font-size:1.12rem; }
+    main { padding:43px 0 65px; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+    .panel, .wide { background:#fff; border:1px solid var(--line); border-radius:15px; padding:25px; box-shadow:0 8px 26px rgba(17,36,59,.045); }
+    h2 { font-size:1.55rem; letter-spacing:-.02em; margin:0 0 12px; } h3 { font-size:1.07rem; margin:0 0 10px; }
+    p { margin:0 0 14px; } p:last-child { margin-bottom:0; }
+    .wide { margin-top:22px; }
+    .note { border-left:4px solid var(--accent); padding:12px 18px; background:#eef8f3; border-radius:0 10px 10px 0; margin:17px 0 0; }
+    footer { border-top:1px solid var(--line); color:var(--muted); font-size:.91rem; padding:24px 0 36px; }
+    footer .container { display:flex; gap:16px; justify-content:space-between; flex-wrap:wrap; }
+    @media(max-width:720px) { .grid { grid-template-columns:1fr; } .hero { padding:45px 0 52px; } .panel,.wide { padding:21px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="top">
+        <a class="brand" href="./">Meu Studio Backup</a>
+        <nav class="nav" aria-label="Navegação principal"><a href="./">Início</a><a href="./privacidade.html">Política de privacidade</a></nav>
+      </div>
+      <div class="hero">
+        <div class="eyebrow">CG Musculação e Pilates · Integração privada</div>
+        <h1>Cópias de segurança do Meu Studio no Google Drive</h1>
+        <p class="lead">O Meu Studio Backup é uma integração de uso restrito, criada para apoiar a proteção e a recuperação dos dados operacionais do sistema Meu Studio.</p>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <section aria-label="Como funciona" class="grid">
+      <article class="panel"><h3>1. Preparação</h3><p>Uma rotina autorizada prepara cópias de segurança do banco de dados e de arquivos do sistema.</p></article>
+      <article class="panel"><h3>2. Armazenamento</h3><p>Os arquivos de backup são enviados para uma pasta definida na conta Google Drive expressamente autorizada pelo responsável.</p></article>
+      <article class="panel"><h3>3. Verificação</h3><p>O processo prevê a conferência da integridade dos arquivos enviados, para detectar falhas de transferência.</p></article>
+    </section>
+    <section class="wide" aria-labelledby="access-title">
+      <h2 id="access-title">Finalidade e acesso</h2>
+      <p>Esta página é apenas informativa. Ela não disponibiliza arquivos, não oferece login para alunos e não permite acessar o banco de dados ou os backups do Meu Studio.</p>
+      <p>A conexão com o Google Drive exige autorização expressa da conta Google utilizada. Embora a permissão técnica solicitada possa abranger os arquivos do Drive, o uso previsto da integração se limita à manutenção dos backups na pasta designada.</p>
+      <div class="note"><strong>Privacidade:</strong> saiba como a integração solicita permissões e trata os dados na <a href="./privacidade.html">Política de Privacidade do Meu Studio Backup</a>.</div>
+    </section>
+    <section class="wide" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contato</h2>
+      <p>Para dúvidas gerais sobre esta integração, o responsável pode ser contatado pelo <a href="https://github.com/p4u10c354r/meu-studio-backup-site/issues" rel="noopener noreferrer">canal público de suporte no GitHub</a>. Não publique dados pessoais, senhas, tokens ou informações de alunos nesse canal.</p>
+    </section>
+  </main>
+  <footer><div class="container"><span>© 2026 · Meu Studio Backup · CG Musculação e Pilates</span><a href="./privacidade.html">Política de privacidade</a></div></footer>
+</body>
+</html>
